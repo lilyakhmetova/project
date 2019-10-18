@@ -1,0 +1,156 @@
+@import "reset.css";
+
+@font-face {
+font-family: FuturaDemiC;
+src: url("../fonts/FuturaDemiC.ttf") format("opentype");
+}
+
+@font-face {
+font-family: FuturaMediumC;
+src: url("../fonts/FuturaMediumC.ttf") format("opentype");
+}
+
+@font-face {
+font-family: FuturaBookC;
+src: url("../fonts/FuturaBookC.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FuturaBold;
+  src: url("../fonts/FuturaBold.ttf") format("opentype");
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  width: 1440px;
+  font-family: 'FuturaDemiC', 'FuturaMediumC', 'FuturaBookC', 'FuturaBold';
+  background: #B2C5EC url('../img/triangle.svg') no-repeat left;
+  background-size: cover;
+}
+
+.cover h1 {
+  width: 900px;
+  color: #3B4E49;
+  font-family: 'FuturaBold';
+  line-height: 150%;
+  font-size: 48px;
+  margin-left: 102px;
+  margin-top: 107px;
+}
+
+.cover h1 + p {
+  width: 600px;
+  color: #3B4E49;
+  font-family: 'FuturaBookC';
+  line-height: 170%;
+  font-size: 19px;
+  margin-left: 102px;
+  margin-top: 17px;
+}
+
+.cover ul#first {
+  width: 900px;
+  color: #FFFFFF;
+  font-family: 'FuturaBold';
+  line-height: 160%;
+  font-size: 45px;
+  opacity: 0.5;
+  margin-left: 102px;
+  margin-top: 76px;
+}
+
+.cover ul#second {
+  width: 1440px;
+  color: #3B4E49;
+  font-family: 'FuturaBold';
+  line-height: 230%;
+  font-size: 28px;
+  text-align: right;
+  margin-left: -236px;
+  margin-top: -284px;
+}
+
+.cover img {
+  position: absolute;
+  right: 200px;
+  top: 400px;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+p {
+  color: #3B4E49;
+  font-family: 'FuturaBookC';
+  line-height: 160%;
+  font-size: 24px;
+}
+
+.firstpart {
+  position: absolute;
+}
+
+.firstpart h2 {
+  width: 856px;
+  color: #3B4E49;
+  font-family: 'FuturaBold';
+  line-height: 130%;
+  font-size: 38px;
+  margin-left: 293px;
+  margin-top: 292px;
+}
+
+.firstpart p#first {
+  width: 854px;
+  margin-left: 293px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.firstpart img#first {
+  position: absolute;
+  width: 715px;
+}
+
+.firstpart img#second {
+  position: absolute;
+  left: 491px;
+  top: 621px;
+}
+
+.firstpart h3 {
+  position: absolute;
+  color: #3B4E49;
+  font-family: 'FuturaBold';
+  font-size: 32px;
+  left: 546px;
+}
+
+.firstpart p#second {
+  position: absolute;
+  width: 752px;
+  font-family: 'FuturaMediumC';
+  right: 158px;
+  left: 546px;
+  margin-top: 50px;
+}
+
+.firstpart p#third {
+  position: absolute;
+  width: 752px;
+  left: 546px;
+  margin-top: 100px;
+}
