@@ -1,16 +1,7 @@
-@font-face {
-font-family: FuturaDemiC;
-src: url("../fonts/FuturaDemiC.ttf") format("opentype");
-}
 
 @font-face {
-font-family: FuturaMediumC;
-src: url("../fonts/FuturaMediumC.ttf") format("opentype");
-}
-
-@font-face {
-font-family: FuturaBookC;
-src: url("../fonts/FuturaBookC.ttf") format("opentype");
+  font-family: FuturaBookC;
+  src: url("../fonts/FuturaBookC.ttf") format("opentype");
 }
 
 @font-face {
@@ -334,7 +325,7 @@ body {
   position: absolute;
   z-index: -1;
   left: 102px;
-  top: 365px;
+  top: 334px;
 }
 
 .resume img#yellow {
