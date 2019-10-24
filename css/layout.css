@@ -1,0 +1,464 @@
+@font-face {
+font-family: FuturaBookC;
+src: url("../fonts/FuturaBookC.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: FuturaBold;
+  src: url("../fonts/FuturaBold.ttf") format("opentype");
+}
+
+:root {
+  --blue: #2600BC;
+  --red: #C80000;
+  --white: #F5F5F5;
+  --yellow: #FFC700;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 1440px;
+  font-family: 'FuturaDemiC', 'FuturaMediumC', 'FuturaBookC', 'FuturaBold';
+  background-color: var(--white);
+}
+
+/* секция .hero */
+
+.hero {
+  height: 951px;
+  background-image: url(../img/triangle.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero h1 {
+  font-family: 'FuturaBold';
+  font-size: 46px;
+  width: 851px;
+  color: var(--white);
+  padding-left: 102px;
+  padding-top: 107px;
+  line-height: 130%;
+}
+
+.hero p {
+  font-family: 'FuturaBookC';
+  font-size: 19px;
+  color: var(--white);
+  width: 600px;
+  padding-left: 102px;
+  padding-top: 28px;
+  line-height: 150%;
+}
+
+.hero > ul {
+  margin-top: 49px;
+  padding-left: 102px;
+}
+
+.hero > ul > li {
+  font-family: 'FuturaBold';
+  font-size: 50px;
+  color: var(--red);
+  opacity: 0.4;
+  padding-top: 80px;
+  line-height: 0px;
+}
+
+.hero nav {
+  text-align: right;
+  position: absolute;
+  top: 415px;
+  right: 160px;
+}
+
+.hero nav img#first {
+  position: absolute;
+  right: -30px;
+}
+
+.hero nav img#second {
+  position: absolute;
+  right: -99px;
+  top: -50px;
+  z-index: -1;
+}
+
+.hero nav ul li a {
+  font-family: 'FuturaBold';
+  font-size: 30px;
+  color: var(--blue);
+  text-decoration: none;
+  line-height: 60px;
+}
+
+.hero a:hover {
+  color: var(--red);
+}
+
+/* секция .firstpart */
+
+.firstpart {
+  position: relative;
+}
+
+.firstpart h2 {
+  font-family: 'FuturaBold';
+  font-size: 36px;
+  width: 742px;
+  color: var(--red);
+  margin-left: 293px;
+  margin-top: 66px;
+  line-height: 130%;
+}
+
+.firstpart h2 + p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: black;
+  width: 800px;
+  margin-left: 293px;
+  margin-top: 50px;
+  line-height: 160%;
+}
+
+.firstpart img#tech {
+  position: absolute;
+  top: 370px;
+}
+
+.firstpart h3 {
+  font-family: 'FuturaBold';
+  font-size: 30px;
+  color: var(--white);
+}
+
+.firstpart section.tech {
+  background-color: var(--red);
+  width: 820px;
+  padding: 38px 38px 38px 38px;
+  position: absolute;
+  z-index: 3;
+  right: 0px;
+  top: 420px;
+}
+
+.firstpart section.tech p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: var(--white);
+  width: 650px;
+  line-height: 160%;
+}
+
+.firstpart section.tech h3 {
+  margin-bottom: 30px;
+}
+
+.firstpart section.creative {
+  background-color: var(--blue);
+  width: 800px;
+  padding: 38px 38px 38px 38px;
+  position: absolute;
+  z-index: 3;
+  left: 0px;
+  top: 850px;
+}
+
+.firstpart section.creative p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: var(--white);
+  width: 740px;
+  line-height: 160%;
+}
+
+.firstpart section.creative h3 {
+  margin-bottom: 30px;
+}
+
+.firstpart img#creative {
+  position: absolute;
+  right: 0px;
+  top: 950px;
+  width: 605px;
+}
+
+.firstpart section.art {
+  background-color: var(--yellow);
+  width: 900px;
+  padding: 38px 28px 38px 38px;
+  position: absolute;
+  z-index: 3;
+  right: 158px;
+  top: 1290px;
+}
+
+.firstpart section.art p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: black;
+  width: 740px;
+  line-height: 160%;
+}
+
+.firstpart section.art h3 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.firstpart img#art {
+  position: absolute;
+  left: 0px;
+  top: 1450px;
+}
+
+.firstpart section.web {
+  background-color: var(--red);
+  width: 820px;
+  padding: 38px 38px 38px 38px;
+  position: absolute;
+  z-index: 3;
+  right: 0px;
+  top: 1750px;
+}
+
+.firstpart section.web p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: var(--white);
+  width: 650px;
+  line-height: 160%;
+}
+
+.firstpart section.web h3 {
+  margin-bottom: 30px;
+}
+
+.firstpart section.other {
+  background-color: var(--yellow);
+  width: 900px;
+  padding: 38px 28px 38px 38px;
+  position: absolute;
+  left: 0px;
+  top: 2100px;
+}
+
+.firstpart section.other p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: black;
+  width: 740px;
+  line-height: 160%;
+}
+
+.firstpart section.other h3 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* секция .secondpart */
+
+.secondpart {
+  background-color: var(--blue);
+  height: 980px;
+  margin-top: 1950px;
+  padding-left: 290px;
+}
+
+.secondpart h2 {
+  font-family: 'FuturaBold';
+  font-size: 36px;
+  color: var(--white);
+  padding-top: 275px;
+  margin-bottom: 65px;
+}
+
+.secondpart h3 {
+  font-family: 'FuturaBold';
+  font-size: 30px;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+
+.secondpart p {
+  font-family: 'FuturaBookC';
+  font-size: 24px;
+  color: var(--white);
+  width: 800px;
+  margin-top: 30px;
+  line-height: 160%;
+}
+
+/* секция .resume */
+.resume {
+  padding-left: 290px;
+  position: relative;
+}
+
+.resume h2 {
+  font-family: 'FuturaBold';
+  font-size: 44px;
+  color: black;
+  padding-top: 150px;
+  margin-bottom: 160px;
+  width: 660px;
+  line-height: 130%;
+}
+
+.resume p {
+  font-family: 'FuturaBold';
+  font-size: 30px;
+  color: black;
+  width: 770px;
+  margin-top: 80px;
+  line-height: 160%;
+}
+
+.resume img#red {
+  position: absolute;
+  z-index: -1;
+  left: 102px;
+  top: 334px;
+}
+
+.resume img#yellow {
+  position: absolute;
+  z-index: -1;
+  right: 168px;
+  top: 648px;
+}
+
+/* секция .footer */
+
+footer {
+  background-color: var(--yellow);
+  height: 1800px;
+  margin-top: 170px;
+  position: relative;
+}
+
+footer h2 {
+  font-family: 'FuturaBold';
+  font-size: 40px;
+  color: black;
+  padding-top: 140px;
+  margin-bottom: 120px;
+  line-height: 130%;
+  padding-left: 290px;
+}
+
+footer h3 {
+  font-family: 'FuturaBold';
+  font-size: 100px;
+}
+
+footer p {
+  font-family: 'FuturaBookC';
+  font-size: 26px;
+  color: black;
+}
+
+footer .one {
+  margin-top: 0px;
+  margin-left: 160px;
+}
+
+footer .one h3 {
+  color: var(--red);
+}
+
+footer .one p {
+  margin-left: 70px;
+  margin-top: -50px;
+}
+
+footer .two {
+  margin-top: 130px;
+  margin-left: 600px;
+}
+
+footer .two h3 {
+  color: var(--blue);
+}
+
+footer .two p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
+
+footer .three {
+  margin-top: 130px;
+  margin-left: 420px;
+}
+
+footer .three h3 {
+  color: black;
+}
+
+footer .three p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
+
+footer .four {
+  margin-top: 130px;
+  margin-left: 90px;
+}
+
+footer .four h3 {
+  color: var(--red);
+}
+
+footer .four p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
+
+footer .five {
+  margin-top: 130px;
+  margin-left: 420px;
+}
+
+footer .five h3 {
+  color: var(--blue);
+}
+
+footer .five p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
+
+footer .six {
+  margin-top: 130px;
+  margin-left: 600px;
+}
+
+footer .six h3 {
+  color: black;
+}
+
+footer .six p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
+
+footer .seven {
+  margin-top: 130px;
+  margin-left: 420px;
+}
+
+footer .seven h3 {
+  color: var(--red);
+}
+
+footer .seven p {
+  margin-left: 85px;
+  margin-top: -50px;
+}
